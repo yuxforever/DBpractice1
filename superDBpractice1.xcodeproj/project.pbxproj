@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		AA768A6D1C5A6A7D007CB618 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA768A6C1C5A6A7D007CB618 /* AppDelegate.swift */; };
 		AA768A6F1C5A6A7D007CB618 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA768A6E1C5A6A7D007CB618 /* ViewController.swift */; };
-		AA768A721C5A6A7D007CB618 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA768A701C5A6A7D007CB618 /* Main.storyboard */; };
+		AA768A721C5A6A7D007CB618 /* superDBpractice1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA768A701C5A6A7D007CB618 /* superDBpractice1.storyboard */; };
 		AA768A751C5A6A7D007CB618 /* superDBpractice1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA768A731C5A6A7D007CB618 /* superDBpractice1.xcdatamodeld */; };
 		AA768A771C5A6A7D007CB618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA768A761C5A6A7D007CB618 /* Assets.xcassets */; };
 		AA768A7A1C5A6A7D007CB618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA768A781C5A6A7D007CB618 /* LaunchScreen.storyboard */; };
 		AA768A851C5A6A7D007CB618 /* superDBpractice1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA768A841C5A6A7D007CB618 /* superDBpractice1Tests.swift */; };
 		AA768A901C5A6A7D007CB618 /* superDBpractice1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA768A8F1C5A6A7D007CB618 /* superDBpractice1UITests.swift */; };
+		AA768A9E1C5A8791007CB618 /* HeroListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA768A9D1C5A8791007CB618 /* HeroListController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 		AA768A691C5A6A7D007CB618 /* superDBpractice1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = superDBpractice1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA768A6C1C5A6A7D007CB618 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA768A6E1C5A6A7D007CB618 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AA768A711C5A6A7D007CB618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA768A711C5A6A7D007CB618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/superDBpractice1.storyboard; sourceTree = "<group>"; };
 		AA768A741C5A6A7D007CB618 /* superDBpractice1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = superDBpractice1.xcdatamodel; sourceTree = "<group>"; };
 		AA768A761C5A6A7D007CB618 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA768A791C5A6A7D007CB618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		AA768A8B1C5A6A7D007CB618 /* superDBpractice1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = superDBpractice1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA768A8F1C5A6A7D007CB618 /* superDBpractice1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = superDBpractice1UITests.swift; sourceTree = "<group>"; };
 		AA768A911C5A6A7D007CB618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA768A9D1C5A8791007CB618 /* HeroListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroListController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +103,9 @@
 			children = (
 				AA768A6C1C5A6A7D007CB618 /* AppDelegate.swift */,
 				AA768A6E1C5A6A7D007CB618 /* ViewController.swift */,
-				AA768A701C5A6A7D007CB618 /* Main.storyboard */,
+				AA768A701C5A6A7D007CB618 /* superDBpractice1.storyboard */,
 				AA768A761C5A6A7D007CB618 /* Assets.xcassets */,
+				AA768A9D1C5A8791007CB618 /* HeroListController.swift */,
 				AA768A781C5A6A7D007CB618 /* LaunchScreen.storyboard */,
 				AA768A7B1C5A6A7D007CB618 /* Info.plist */,
 				AA768A731C5A6A7D007CB618 /* superDBpractice1.xcdatamodeld */,
@@ -234,7 +237,7 @@
 			files = (
 				AA768A7A1C5A6A7D007CB618 /* LaunchScreen.storyboard in Resources */,
 				AA768A771C5A6A7D007CB618 /* Assets.xcassets in Resources */,
-				AA768A721C5A6A7D007CB618 /* Main.storyboard in Resources */,
+				AA768A721C5A6A7D007CB618 /* superDBpractice1.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA768A751C5A6A7D007CB618 /* superDBpractice1.xcdatamodeld in Sources */,
+				AA768A9E1C5A8791007CB618 /* HeroListController.swift in Sources */,
 				AA768A6F1C5A6A7D007CB618 /* ViewController.swift in Sources */,
 				AA768A6D1C5A6A7D007CB618 /* AppDelegate.swift in Sources */,
 			);
@@ -297,12 +301,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AA768A701C5A6A7D007CB618 /* Main.storyboard */ = {
+		AA768A701C5A6A7D007CB618 /* superDBpractice1.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AA768A711C5A6A7D007CB618 /* Base */,
 			);
-			name = Main.storyboard;
+			name = superDBpractice1.storyboard;
 			sourceTree = "<group>";
 		};
 		AA768A781C5A6A7D007CB618 /* LaunchScreen.storyboard */ = {
